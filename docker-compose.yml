@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+
+  backend:
+    build: ./backend
+    container_name: plant_backend
+    ports:
+      - "8001:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: plant_frontend
+    ports:
+      - "8502:8501"
+    depends_on:
+      - backend

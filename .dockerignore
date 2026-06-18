@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model Files
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Datasets
+dataset/
+datasets/
+data/
+train/
+test/
+val/
+
+# Cache
+.cache/
+pytest_cache/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Build artifacts
+dist/
+build/
