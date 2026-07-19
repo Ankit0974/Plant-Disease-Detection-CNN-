@@ -21,6 +21,20 @@ https://plant-backend-production-f0be.up.railway.app
 https://plant-backend-production-f0be.up.railway.app/docs
 
 ---
+# ⚠️ Important Note
+
+This project uses **Railway's free tier** for backend deployment.
+
+If the backend API does not respond or the frontend shows connection errors, it is likely because the Railway monthly credits have been exhausted.
+
+In that case:
+
+- The frontend may still load successfully.
+- Predictions will not work until the backend service is restarted after credits reset or the deployment is upgraded.
+
+This is a deployment limitation, **not an issue with the application itself**.
+
+---
 
 # 📖 Project Overview
 
