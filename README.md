@@ -36,6 +36,11 @@ This is a deployment limitation, **not an issue with the application itself**.
 
 ---
 
+## 📸 Screenshots & Demo
+
+- Screenshots are available in the **Screenshots/** directory.
+- A complete walkthrough video is available in the **Demo/** directory.
+
 # 📖 Project Overview
 
 Plant diseases can significantly impact crop yield and agricultural productivity. This project provides an automated disease detection system that allows users to upload a plant leaf image and instantly receive a disease prediction.
